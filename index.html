@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <!-- basic -->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- mobile metas -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+   <!-- site metas -->
+   <title>Swadhikar</title>
+   <meta name="keywords" content="">
+   <meta name="description" content="">
+   <meta name="author" content="">
+   <!-- bootstrap css -->
+   <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+   <!-- style css -->
+   <link rel="stylesheet" type="text/css" href="../css/style.css">
+   <!-- Responsive-->
+   <link rel="stylesheet" href="../css/responsive.css">
+   <!-- fevicon -->
+   <link rel="icon" href="../images/fevicon.png" type="image/gif" />
+   <!-- font css -->
+   <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
+   <!-- Scrollbar Custom CSS -->
+   <link rel="stylesheet" href="../css/jquery.mCustomScrollbar.min.css">
+   <!-- Tweaks for older IEs-->
+   <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+</head>
+
+<body>
+
+   <div class="header_section">
+      <div class="container-fluid">
+         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="../index.html"><img src="../images/logo.png"></a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                     <a class="nav-link" href="../index.html">Home</a>
+                  </li>
+                  <style>
+                     /* Add custom CSS to change the background color of the "Home" link to red */
+                     .navbar-nav .nav-item.active .nav-link {
+                        color: white !important;
+                        /* Change text color to white */
+                        background-color: red !important;
+                        /* Change background color to red */
+                     }
+                  </style>
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Acts & Rights
+                     </a>
+                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Actsandlaws/Family.html">Family & Marriage</a>
+                        <a class="dropdown-item" href="Actsandlaws/money.html">Money & Property</a>
+                        <a class="dropdown-item" href="Actsandlaws/rules.html">Crimes & Violence </a>
+                        <a class="dropdown-item" href="Actsandlaws/rules.html">Police & Courts</a>
+                        <a class="dropdown-item" href="Actsandlaws/rules.html">Labour & Employment</a>
+                        <a class="dropdown-item" href="Actsandlaws/rules.html">Health & Environment</a>
+                        <a class="dropdown-item" href="Actsandlaws/rules.html">Citizens Rights & Constitution</a>
+                        <a class="dropdown-item" href="#">Government &Elections</a>
+                        <a class="dropdown-item" href="#">Media & Intellectual</a>
+                        
+                     </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        complaint
+                     </a>
+                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">File a complaint</a>
+                        <a class="dropdown-item" href="#">How to file a online complian ?</a>
+                        <a class="dropdown-item" href="#">Check your file status</a>
+                        <!-- <div class="dropdown-divider"></div> -->
+                        <!-- <a class="dropdown-item" href="#">Dropdown Item 3</a> -->
+                     </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        services
+                     </a>
+                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Dropdown Item 1</a>
+                        <a class="dropdown-item" href="#">Dropdown Item 2</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Dropdown Item 3</a>
+                     </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Media
+                     </a>
+                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Dropdown Item 1</a>
+                        <a class="dropdown-item" href="#">Dropdown Item 2</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Dropdown Item 3</a>
+                     </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Training & Career
+                     </a>
+                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Dropdown Item 1</a>
+                        <a class="dropdown-item" href="#">Dropdown Item 2</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Dropdown Item 3</a>
+                     </div>
+                  </li>
+                  <style>
+                     /* Add custom CSS to set the background color of the dropdown menus to white */
+                     .dropdown-menu {
+                        background-color: white;
+                     }
+
+                     .nav-link.dropdown-toggle {
+                        background-color: red;
+                     }
+                  </style>
+
+
+
+
+                  <!--
+
+                     <li class="nav-item">
+                        <a class="nav-link" href="about.html">Know your Rights</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="what-we.html">Your Assistant</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Laws</a>
+                     </li>
+
+-->
+                  <!-- <li class="nav-item">
+                     <a class="nav-link" href="contact.html">C</a>
+                  </li> -->
+               </ul>
+
+               <form class="form-inline my-2 my-lg-0">
+
+                  <div id="google_translate_element">
+
+                  </div>
+                  <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+                  </script>
+                  <script>
+                     function googleTranslateElementInit() {
+                        new google.translate.TranslateElement(
+                           { pageLanguage: 'en' },
+                           'google_translate_element'
+                        );
+                     }
+                  </script>
+
+               </form>
+            </div>
+         </nav>
+      </div>
+      <!-- banner section start -->
+      <div class="banner_section layout_padding">
+         <div class="container-fluid">
+            <div id="banner_slider" class="carousel slide" data-ride="carousel">
+               <div class="carousel-inner">
+                  <div class="carousel-item active">
+                     <div class="row">
+                        <div class="col-md-6">
+                           <div class="banner_taital_main">
+                              <h1 class="banner_taital">Unlocking legal Insights</h1>
+                              <p class="banner_text">Talk to Our AI Powered Assistant</p>
+
+                              <div class="started_bt"><a href="#">Chat Now</a></div>
+                           </div>
+                        </div>
+                        <div class="col-md-6">
+                           <div class="banner_img"><img src="images/new-banner.png"></div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <div class="row">
+                        <div class="col-md-6">
+                           <div class="banner_taital_main">
+                              <h1 class="banner_taital">Your one stop legal resources</h1>
+                              <p class="banner_text">Talk to Our AI Powered Assistant</p>
+
+                              <div class="started_bt"><a href="#">Chat Now</a></div>
+                           </div>
+                        </div>
+                        <div class="col-md-6">
+                           <div class="banner_img"><img src="images/new-banner.png"></div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <div class="row">
+                        <div class="col-md-6">
+                           <div class="banner_taital_main">
+                              <h1 class="banner_taital">Illuminating Laws,Rights and More</h1>
+                              <p class="banner_text">Talk to Our AI Powered Assistant</p>
+
+                              <div class="started_bt"><a href="#">Chat Now</a></div>
+                           </div>
+                        </div>
+                        <div class="col-md-6">
+                           <div class="banner_img"><img src="images/new-banner.png"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <a class="carousel-control-prev" href="#banner_slider" role="button" data-slide="prev">
+                  <i class="fa fa-arrow-left"></i>
+               </a>
+               <a class="carousel-control-next" href="#banner_slider" role="button" data-slide="next">
+                  <i class="fa fa-arrow-right"></i>
+               </a>
+            </div>
+         </div>
+      </div>
+      <!-- banner section end -->
+   </div>
+   <!-- header section end -->
+   <!-- box section start -->
+   <div class="container">
+      <div class="box_section">
+         <div class="online_box">
+            <div class="online_box_left">
+               <div class="online_box_main">
+                  <div class="box_left">
+                     <div class="right_arrow"><i class="fa fa-arrow-right"></i></div>
+                  </div>
+                  <div class="box_right">
+                     <p class="book_text">Book a</p>
+                     <h4 class="appoinment_text">Appoinment</h4>
+                  </div>
+               </div>
+            </div>
+            <div class="online_box_left active">
+               <div class="online_box_main">
+                  <div class="box_left">
+                     <div class="right_arrow"><i class="fa fa-arrow-right"></i></div>
+                  </div>
+                  <div class="box_right">
+                     <p class="book_text active">Legal</p>
+                     <h4 class="appoinment_text active">Documents</h4>
+                  </div>
+               </div>
+            </div>
+            <div class="online_box_left">
+               <div class="online_box_main">
+                  <div class="box_left">
+                     <div class="right_arrow"><i class="fa fa-arrow-right"></i></div>
+                  </div>
+                  <div class="box_right">
+                     <p class="book_text">Pay Invoice</p>
+                     <h4 class="appoinment_text">Online</h4>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- box section end -->
+   <!-- services section start -->
+   <div class="services_section">
+      <div class="container">
+         <div class="row">
+            <div class="col-sm-12">
+               <h1 class="studies_taital">LAWS UNVEILED</h1>
+            </div>
+         </div>
+      </div>
+      <div class="services_section_2">
+         <div id="main_slider" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-md-4">
+                           <div class="service_box">
+                              <div class="house_icon">
+                                 <img src="images/familylaw.png" class="image_1">
+                                 <img src="images/familylaw.png" class="image_2">
+                              </div>
+                              <h3 class="corporate_text">FAMILY LAW</h3>
+                              <p class="chunks_text">Family law (also called matrimonial law or the law of domestic
+                                 relations) is an area of the law that deals with family matters.</p>
+                              <div class="readmore_button"><a href="#">Read More</a></div>
+                           </div>
+                        </div>
+                        <div class="col-md-4">
+                           <div class="service_box active">
+                              <div class="house_icon">
+                                 <img src="images/propertylawnew.png" class="image_1">
+                                 <img src="images/propertylawnew.png" class="image_2">
+                              </div>
+                              <h3 class="corporate_text">PROPERTY LAW</h3>
+                              <p class="chunks_text">Property law is the area of law that governs the various forms of
+                                 ownership in real property (land) and personal property.</p>
+                              <div class="readmore_button active"><a href="#">Read More</a></div>
+                           </div>
+                        </div>
+                        <div class="col-md-4">
+                           <div class="service_box">
+                              <div class="house_icon">
+                                 <img src="images/labourlaw-removebg-preview (1).png" class="image_1">
+                                 <img src="images/labourlaw-removebg-preview (1).png" class="image_2">
+                              </div>
+                              <h3 class="corporate_text">LABOUR LAW</h3>
+                              <p class="chunks_text">labour code or employment laws are those that mediate the
+                                 relationship between workers, employing entities and the government. </p>
+                              <div class="readmore_button"><a href="#">Read More</a></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-md-4">
+                           <div class="service_box">
+                              <div class="house_icon">
+                                 <img src="images/criminallaw.png" class="image_1">
+                                 <img src="images/criminallaw.png" class="image_2">
+                              </div>
+                              <h3 class="corporate_text">CRIMINAL LAW</h3>
+                              <p class="chunks_text">Criminal law is the body of law that relates to crime. It
+                                 prescribes conduct perceived as endangering to the welfare of people.</p>
+                              <div class="readmore_button"><a href="#">Read More</a></div>
+                           </div>
+                        </div>
+                        <div class="col-md-4">
+                           <div class="service_box active">
+                              <div class="house_icon">
+                                 <img src="images/civillaw.png" class="image_1">
+                                 <img src="images/civillaw.png" class="image_2">
+                              </div>
+                              <h3 class="corporate_text">CIVIL LAW</h3>
+                              <p class="chunks_text">Civil law is a system of law or body of rules dealing with the
+                                 civil or private rights of citizens and not the public at large. </p>
+                              <div class="readmore_button active"><a href="#">Read More</a></div>
+                           </div>
+                        </div>
+                        <div class="col-md-4">
+                           <div class="service_box">
+                              <div class="house_icon">
+                                 <img src="images/commonlaw.png" class="image_1">
+                                 <img src="images/commonlaw.png" class="image_2">
+                              </div>
+                              <h3 class="corporate_text">COMMON LAW</h3>
+                              <p class="chunks_text">Common law is a body of unwritten laws based on judicial
+                                 precedents. It is based on judgments from the courts and the jury.</p>
+                              <div class="readmore_button"><a href="#">Read More</a></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-md-4">
+                           <div class="service_box">
+                              <div class="house_icon">
+                                 <img src="images/icon-1.png" class="image_1">
+                                 <img src="images/icon-4.png" class="image_2">
+                              </div>
+                              <h3 class="corporate_text">STATUTORY LAW</h3>
+                              <p class="chunks_text">Statutory law or statute law is written law passed by a body of
+                                 legislature. This is opposed to oral or customary law.</p>
+                              <div class="readmore_button"><a href="#">Read More</a></div>
+                           </div>
+                        </div>
+                        <div class="col-md-4">
+                           <div class="service_box active">
+                              <div class="house_icon">
+                                 <img src="images/icon-5.png" class="image_1">
+                                 <img src="images/icon-5.png" class="image_2">
+                              </div>
+                              <h3 class="corporate_text">CORPORATE LAW</h3>
+                              <p class="chunks_text">Corporate law is the body of law governing the rights, relations,
+                                 and conduct of persons, companies and businesses.</p>
+                              <div class="readmore_button active"><a href="#">Read More</a></div>
+                           </div>
+                        </div>
+                        <div class="col-md-4">
+                           <div class="service_box">
+                              <div class="house_icon">
+                                 <img src="images/icon-3.png" class="image_1">
+                                 <img src="images/icon-6.png" class="image_2">
+                              </div>
+                              <h3 class="corporate_text">RELIGIOUS LAW</h3>
+                              <p class="chunks_text">Religious law includes ethical and moral codes taught by religious
+                                 traditions. Different religious systems hold sacred law.</p>
+                              <div class="readmore_button"><a href="#">Read More</a></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+               <i class="fa fa-arrow-left"></i>
+            </a>
+            <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
+               <i class="fa fa-arrow-right"></i>
+            </a>
+         </div>
+      </div>
+   </div>
+   <!-- services section end -->
+   <!-- studies section start -->
+   <div class="studies_section layout_padding">
+      <div class="container">
+         <div class="row">
+            <div class="col-sm-12">
+               <h1 class="studies_taital">Common legal Queries</h1>
+            </div>
+         </div>
+         <div class="studies_section_2">
+            <div class="row">
+               <div class="col-md-4">
+                  <div class="hover01 column">
+                     <figure><img src="images/rights.jpg"></figure>
+                  </div>
+                  <div class="studies_box">
+                     <h3 class="introduction_text">Rights as Citizens</h3>
+                  </div>
+                  <div class="read_bt"><a href="#">Read More</a></div>
+               </div>
+               <div class="col-md-4">
+                  <div class="hover01 column">
+                     <figure><img src="images/complaint.jpg"></figure>
+                  </div>
+                  <div class="studies_box">
+                     <h3 class="introduction_text">File a Complaint</h3>
+                  </div>
+                  <div class="read_bt active"><a href="#">Read More</a></div>
+               </div>
+               <div class="col-md-4">
+                  <div class="hover01 column">
+                     <figure><img src="images/services.png"></figure>
+                  </div>
+                  <div class="studies_box">
+                     <h3 class="introduction_text">Access Legal Aid Services</h3>
+                  </div>
+                  <div class="read_bt"><a href="#">Read More</a></div>
+               </div>
+               <div class="col-md-4">
+                  <div class="hover01 column">
+                     <figure><img src="images/legal-documents.png"></figure>
+                  </div>
+                  <div class="studies_box">
+                     <h3 class="introduction_text">Obtain Legal Documents</h3>
+                  </div>
+                  <div class="read_bt"><a href="#">Read More</a></div>
+               </div>
+               <div class="col-md-4">
+                  <div class="hover01 column">
+                     <figure><img src="images/legal-action.png"></figure>
+                  </div>
+                  <div class="studies_box">
+                     <h3 class="introduction_text">Implication of Action</h3>
+                  </div>
+                  <div class="read_bt"><a href="#">Read More</a></div>
+               </div>
+               <div class="col-md-4">
+                  <div class="hover01 column">
+                     <figure><img src="images/Duties.webp"></figure>
+                  </div>
+                  <div class="studies_box">
+                     <h3 class="introduction_text">Fundamental Duties</h3>
+                  </div>
+                  <div class="read_bt"><a href="#">Read More</a></div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- studies section end -->
+   <!-- about section start -->
+   <div class="about_section layout_padding">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-6">
+               <div class="about_img"><img src="images/about-img.png"></div>
+            </div>
+            <div class="col-md-6">
+               <div class="about_text_main">
+                  <h1 class="about_taital">About Us</h1>
+                  <p class="about_text">We provide Simple, Actionable, Reliable, Accessible Legal (SARAL) information so
+                     you can solve your legal problems, be aware of your rights under the law, and save time, money &
+                     energy.
+                  </p>
+                  <div class="readmore_bt"><a href="#">Read More</a></div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- about section end -->
+   <!-- testimonial section start -->
+   <div class="customer_section layout_padding">
+      <div class="container">
+         <div class="row">
+            <div class="col-sm-12">
+               <h1 class="customer_taital">SATISFIED CLIENT Says</h1>
+            </div>
+         </div>
+      </div>
+      <div id="my_slider" class="carousel slide" data-ride="carousel">
+         <div class="carousel-inner">
+            <div class="carousel-item active">
+               <div class="customer_section_2">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-md-12">
+                           <div class="box_main">
+                              <div class="customer_main">
+                                 <div class="customer_left">
+                                    <div class="customer_img"><img src="images/customer-img.png"></div>
+                                 </div>
+                                 <div class="customer_right">
+                                    <h3 class="customer_name">Giolio Mark <span class="quick_icon"><img
+                                             src="images/quick-icon.png"></span></h3>
+                                    <p class="enim_text">anything embarrassing hidden in the middle of text. All the
+                                       Lorem Ipsum generators on the Internet tend to repeat predefined chunks as
+                                       necessary, making this the first true generator on the Internetanything
+                                       embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the
+                                       Internet tend to repeat predefined chunks as necessary, making this the first
+                                       true generator on the Internet</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <div class="customer_section_2">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-md-12">
+                           <div class="box_main">
+                              <div class="customer_main">
+                                 <div class="customer_left">
+                                    <div class="customer_img"><img src="images/customer-img.png"></div>
+                                 </div>
+                                 <div class="customer_right">
+                                    <h3 class="customer_name">DenoMark <span class="quick_icon"><img
+                                             src="images/quick-icon.png"></span></h3>
+                                    <p class="enim_text">anything embarrassing hidden in the middle of text. All the
+                                       Lorem Ipsum generators on the Internet tend to repeat predefined chunks as
+                                       necessary, making this the first true generator on the Internetanything
+                                       embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the
+                                       Internet tend to repeat predefined chunks as necessary, making this the first
+                                       true generator on the Internet</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <div class="customer_section_2">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-md-12">
+                           <div class="box_main">
+                              <div class="customer_main">
+                                 <div class="customer_left">
+                                    <div class="customer_img"><img src="images/customer-img.png"></div>
+                                 </div>
+                                 <div class="customer_right">
+                                    <h3 class="customer_name">DenoMark <span class="quick_icon"><img
+                                             src="images/quick-icon.png"></span></h3>
+                                    <p class="enim_text">anything embarrassing hidden in the middle of text. All the
+                                       Lorem Ipsum generators on the Internet tend to repeat predefined chunks as
+                                       necessary, making this the first true generator on the Internetanything
+                                       embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the
+                                       Internet tend to repeat predefined chunks as necessary, making this the first
+                                       true generator on the Internet</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <a class="carousel-control-prev" href="#my_slider" role="button" data-slide="prev">
+            <i class="fa fa-arrow-left"></i>
+         </a>
+         <a class="carousel-control-next" href="#my_slider" role="button" data-slide="next">
+            <i class="fa fa-arrow-right"></i>
+         </a>
+      </div>
+   </div>
+   <!-- testimonial section end -->
+   <!-- news section start -->
+   <div class="news_section layout_padding">
+      <div class="container">
+         <h1 class="news_taital">Recent News</h1>
+         <div class="news_section_2">
+            <div class="news_box">
+               <div id="custom_slider" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                     <div class="carousel-item active">
+                        <div class="news_img"><img src="images/news-img.png"></div>
+                     </div>
+                     <div class="carousel-item">
+                        <div class="news_img"><img src="images/news-img.png"></div>
+                     </div>
+                     <div class="carousel-item">
+                        <div class="news_img"><img src="images/news-img.png"></div>
+                     </div>
+                  </div>
+                  <a class="carousel-control-next" href="#custom_slider" role="button" data-slide="next">
+                     <i class="fa fa-arrow-right"></i>
+                  </a>
+               </div>
+               <h2 class="does_taital">What Does Constitution of India mean to you?</h2>
+               <p class="dummy_text">The Constitution of India is the supreme law of India. The document lays down the
+                  framework that demarcates fundamental political code, structure, procedures, powers, and duties of
+                  government institutions and sets out fundamental rights, directive principles, and the duties of
+                  citizens, based on the proposal suggested by M.N. Roy . It is the longest written national
+                  constitution in the world. </p>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- news section end -->
+   <!-- contact section start -->
+   <div class="contact_section layout_padding">
+      <div class="container">
+         <div class="row">
+            <div class="col-sm-12">
+               <h1 class="contact_taital">Free Consulation</h1>
+            </div>
+         </div>
+         <div class="contact_section_2">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="mail_section map_form_container">
+                     <form action="">
+                        <input type="text" class="mail_text" placeholder="Name" name="Name">
+                        <input type="text" class="mail_text" placeholder="Phone Number" name="Phone Number">
+                        <input type="text" class="mail_text" placeholder="Your Email" name="Your Email">
+                        <textarea class="massage-bt" placeholder="Massage" rows="5" id="comment"
+                           name="Massage"></textarea>
+                        <div class="send_bt active"><a href="#">Send Now</a></div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- contact section end -->
+   <!-- footer section start -->
+   <div class="footer_section layout_padding">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="location_text">
+                  <ul>
+                     <li>
+                        <a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i></a>
+                     </li>
+                     <li>
+                        <a href="#"><i class="fa fa-phone" aria-hidden="true"></i></a>
+                     </li>
+                     <li>
+                        <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <div class="footer_logo">
+               <a href="indexz.html">
+                  <img src="images/resizelogo.png">
+            </div>
+            <div class="social_icon">
+               <ul>
+                  <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                  <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- footer section end -->
+
+   <!-- copyright section end -->
+   <!-- Javascript files-->
+   <script src="js/jquery.min.js"></script>
+   <script src="js/popper.min.js"></script>
+   <script src="js/bootstrap.bundle.min.js"></script>
+   <script src="js/jquery-3.0.0.min.js"></script>
+   <script src="js/plugin.js"></script>
+   <!-- sidebar -->
+   <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+   <script src="js/custom.js"></script>
+
+
+   <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+<script>
+  window.botpressWebChat.init({
+      "composerPlaceholder": "Send a message",
+      "botConversationDescription": "Your legal assistant",
+      "botId": "001dbe3e-048e-497c-bab3-45d74241283b",
+      "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
+      "messagingUrl": "https://messaging.botpress.cloud",
+      "clientId": "001dbe3e-048e-497c-bab3-45d74241283b",
+      "lazySocket": true,
+      "botName": "Swadhikar",
+      "stylesheet": "https://webchat-styler-css.botpress.app/prod/98fbe9a7-4acd-4164-b2c5-267605bcbb58/v31911/style.css",
+      "frontendVersion": "v1"
+  });
+</script>
+   <!-- javascript -->
+
+</body>
+
+</html>
